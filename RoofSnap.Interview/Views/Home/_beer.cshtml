@@ -1,0 +1,23 @@
+﻿@model IEnumerable<RoofSnap.Interview.DTO.BeerData>
+
+<table>
+    <thead>
+        <tr>
+            <th>Brand</th>
+            <th>Name</th>
+            <th>Style</th>
+            <th>IBU</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var beer in Model)
+        {
+            <tr>
+                <td>@beer.Brand</td>
+                <td>@beer.Name</td>
+                <td>@beer.Style</td>
+                <td>@beer.IBU</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoofSnap.Interview", "RoofSnap.Interview\RoofSnap.Interview.csproj", "{461A7D2A-D197-41D2-B767-30EA1F8C7E5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{461A7D2A-D197-41D2-B767-30EA1F8C7E5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{461A7D2A-D197-41D2-B767-30EA1F8C7E5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{461A7D2A-D197-41D2-B767-30EA1F8C7E5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{461A7D2A-D197-41D2-B767-30EA1F8C7E5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70410F20-A3D1-4713-9957-AE7D965BF2B0}
+	EndGlobalSection
+EndGlobal

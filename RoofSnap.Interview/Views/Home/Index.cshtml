@@ -1,0 +1,23 @@
+﻿@model HomeViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="beer-list">
+    <div class="row">
+        <div class="col">
+            <h1>Raw Beer List</h1>
+            <partial name="_beer" for="RawBeerData"/>
+        </div>
+        <div class="col">
+            <h1>Sorted By IBU</h1>
+            <partial name="_beer" for="SortedByIBU"/>
+        </div>
+        <div class="col">
+            <h1>Grouped By Brand</h1>
+            <partial name="_beer" for="GroupedByBrand"/>
+        </div>
+    </div>
+</div>
+
