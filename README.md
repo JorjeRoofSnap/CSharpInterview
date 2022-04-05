@@ -18,3 +18,6 @@ The result should look something like this. The data from the api is random so y
 
 # Tests
 If you have time, write unit tests for the things you think it makes sense to unit test. You can use any framework you are comfortable with.
+
+# Development Setup
+You can use any ide you are comfortable with. The project was created using Visual Studio 2022 and .NET 6.0 and is written in C#.
