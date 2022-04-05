@@ -20,7 +20,7 @@ namespace RoofSnap.Interview.Controllers
         {
             var viewModel = new HomeViewModel()
             {
-                RawBeerData = await _beerClient.GetBeersAsync(),
+                RawBeerData = await _beerClient.GetBeersAsync(), // TODO: This method is returning mock data.
                 // TODO: The collections below are wrong. Find and implement the interfaces that will properly populate these.
                 GroupedByBrand = await _beerClient.GetBeersAsync(),
                 SortedByIBU = await _beerClient.GetBeersAsync()
